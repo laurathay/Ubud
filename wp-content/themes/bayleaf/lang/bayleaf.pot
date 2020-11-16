@@ -1,0 +1,1380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR vedathemes
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bayleaf WordPress Theme 1.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-05 07:56+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:20
+msgid "ERROR 404"
+msgstr ""
+
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:26
+msgid ""
+"You might ensure the URL is spelled correctly, or if you followed a link "
+"here, please let us know. Please try a search to reach your desired "
+"destination."
+msgstr ""
+
+#: comments.php:45
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:53
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:77
+msgid " Reply"
+msgstr ""
+
+#: comments.php:89
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:96
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:97
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:285
+msgid "Header Toggle Widgets"
+msgstr ""
+
+#: functions.php:289
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: functions.php:293
+msgid "Homepage Above Content"
+msgstr ""
+
+#: functions.php:298
+msgid "Homepage Below Content"
+msgstr ""
+
+#: functions.php:303
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:311
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:345
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:353
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: searchform.php:15 searchform.php:16 add-on/woocommerce/searchform.php:15
+#: add-on/woocommerce/searchform.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:16 add-on/woocommerce/searchform.php:16
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:18 add-on/woocommerce/searchform.php:18
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: add-on/admin-page/template.php:12
+msgid "Getting Started"
+msgstr ""
+
+#: add-on/admin-page/template.php:14
+msgid ""
+"Use \"Display Posts\" widget from Appearance > Widgets to create various "
+"posts layout."
+msgstr ""
+
+#: add-on/admin-page/template.php:15
+msgid ""
+"Use \"Blank Widget\" widget from Appearance > Widgets to create vertical "
+"gaps between widgets."
+msgstr ""
+
+#: add-on/admin-page/template.php:16
+#, php-format
+msgid "Visit %s to get Started"
+msgstr ""
+
+#: add-on/admin-page/template.php:16
+msgid "quick setup guide"
+msgstr ""
+
+#: add-on/admin-page/template.php:17
+#, php-format
+msgid "Get Support at %s"
+msgstr ""
+
+#: add-on/admin-page/template.php:17
+msgid "Support Forum"
+msgstr ""
+
+#: add-on/admin-page/template.php:18
+#, php-format
+msgid "If you are happy with Bayleaf, %s"
+msgstr ""
+
+#: add-on/admin-page/template.php:18
+msgid "Kindly give 5 star rating."
+msgstr ""
+
+#: add-on/admin-page/template.php:20
+msgid "Thanks for trying Bayleaf"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:79
+msgid "Publish Date"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:80
+msgid "Modified Date"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:81
+msgid "Title"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:82
+msgid "Author"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:83
+msgid "Comment Count"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:84
+msgid "Random"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:88
+msgid "Top Left Cropping"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:89
+msgid "Top Center Cropping"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:90
+msgid "Center Cropping"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:91
+msgid "Bottom Left Cropping"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:92
+msgid "Bottom Center Cropping"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:98
+msgid "Create a display posts widget."
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:101
+msgid "Display Posts"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:262
+#: add-on/woocommerce/class-woocommerce-products.php:163
+msgid "Title:"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:269
+#: add-on/widgetlayer/class-blank-widget.php:106
+msgid "None"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:270
+msgid "Select Post Type"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:282
+msgid "Post IDs (if any)"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:283
+msgctxt "Placeholder text for post ids"
+msgid "Comma separated ids, i.e. 230,300"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:295
+msgid "Number of Posts"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:301
+msgid "Order By"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:308
+msgid "Sort Order"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:310
+msgid "Descending"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:311
+msgid "Ascending"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:321
+msgid "Display Style"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:329
+msgid "Image Cropping Position"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:426
+msgid "Select Pages"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:456
+msgid "Select Terms"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:474
+msgid "Ignore Taxonomy"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts-widget.php:490
+msgid "Select Taxonomy"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:76
+msgid "List View 1"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:77
+msgid "Grid View 1"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:78
+msgid "Grid View 2"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:79
+msgid "Grid View 3"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:80
+msgid "Slider 1"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:81
+msgid "Slider 2"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:196
+msgid "View All"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:366
+#, php-format
+msgctxt "human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:484
+msgid "Continue Reading"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:543
+msgid "Read More"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:572
+msgid "Previous Slide"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:577
+msgid "Next Slide"
+msgstr ""
+
+#: add-on/display-posts/class-display-posts.php:606 inc/constructor.php:510
+msgid "on"
+msgstr ""
+
+#: add-on/plugins-compat/class-plugins-compat.php:217
+msgid "Calendar"
+msgstr ""
+
+#: add-on/plugins-compat/class-plugins-compat.php:237
+msgid "Widget Featured Image"
+msgstr ""
+
+#: add-on/related-posts/class-related-posts.php:183
+msgid "You may also like"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:386
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:827
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2533
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:387
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:388
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:934
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:1121
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3509
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3509
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: add-on/tgm-activation/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:28
+msgid "Create a blank widget."
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:31
+msgid "Blank Widget"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:60
+msgid ""
+"This is an bayleaf theme widgetlayer specific widget. It should not be used "
+"outside widgetlayer widget area. Widlayer widget areas are, 1. Homepage "
+"Above Content, 2. Homepage Below Content, 3. Footer Widgets"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:77
+msgid "Height on desktop"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:78
+#: add-on/widgetlayer/class-blank-widget.php:92
+msgid "2 x Line-height"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:82
+#: add-on/widgetlayer/class-blank-widget.php:96
+msgid "1 x Line-height"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:83
+#: add-on/widgetlayer/class-blank-widget.php:97
+msgid "3 x Line-height"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:84
+#: add-on/widgetlayer/class-blank-widget.php:98
+msgid "4 x Line-height"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:85
+#: add-on/widgetlayer/class-blank-widget.php:99
+msgid "5 x Line-height"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:86
+#: add-on/widgetlayer/class-blank-widget.php:100
+msgid "6 x Line-height"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:91
+msgid "Height on Tablet"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:105
+msgid "Horizontal divider line"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:110
+msgid "Wide Line"
+msgstr ""
+
+#: add-on/widgetlayer/class-blank-widget.php:111
+msgid "Full bleed line"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:109
+#: add-on/widgetlayer/class-widgetlayer.php:111
+msgid "Set Image"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:110
+msgid "Select"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:373
+msgid "Widget Title Font Size"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:374
+msgid "Normal"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:378
+msgid "Large"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:379
+msgid "Small"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:384
+msgid "Width on desktop"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:385
+#: add-on/widgetlayer/class-widgetlayer.php:418
+msgid "12 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:388
+#: add-on/widgetlayer/class-widgetlayer.php:407
+msgid "1 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:389
+#: add-on/widgetlayer/class-widgetlayer.php:408
+msgid "2 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:390
+#: add-on/widgetlayer/class-widgetlayer.php:409
+msgid "3 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:391
+#: add-on/widgetlayer/class-widgetlayer.php:410
+msgid "4 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:392
+#: add-on/widgetlayer/class-widgetlayer.php:411
+msgid "5 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:393
+#: add-on/widgetlayer/class-widgetlayer.php:412
+msgid "6 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:394
+#: add-on/widgetlayer/class-widgetlayer.php:413
+msgid "7 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:395
+#: add-on/widgetlayer/class-widgetlayer.php:414
+msgid "8 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:396
+#: add-on/widgetlayer/class-widgetlayer.php:415
+msgid "9 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:397
+#: add-on/widgetlayer/class-widgetlayer.php:416
+msgid "10 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:398
+#: add-on/widgetlayer/class-widgetlayer.php:417
+msgid "11 of 12"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:403
+msgid "Width on tablet"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:404
+msgid "Same as Desktop"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:423
+msgid "Content Vertical Alignment"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:424
+msgid "Top"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:427
+msgid "Middle"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:428
+msgid "Bottom"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:433
+msgid "Text Alignment"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:434
+msgid "Left"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:437
+msgid "Center"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:438
+msgid "Right"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:443
+msgid "Hide widget on mobile"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:448
+msgid "Move below next widget on tablet"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:453
+msgid "Move below next widget on mobile"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:562
+msgid "Theme specific styling options"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:597
+#: add-on/widgetlayer/class-widgetlayer.php:600
+msgid "Set Featured Image"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:604
+msgid "Click the image to edit/update"
+msgstr ""
+
+#: add-on/widgetlayer/class-widgetlayer.php:605
+msgid "Remove Featured Image"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:63
+msgid "Newly Added Products"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:64
+msgid "Featured Products"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:65
+msgid "Popular Products"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:66
+msgid "Products on Sale"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:67
+msgid "Best Sellers"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:73
+msgid "Create a WooCommerce Products widget."
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:76
+msgid "WooCommerce Products"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:169
+msgid "Select Products to Display"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:175
+msgid "Number of Products"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce-products.php:180
+msgid "Number of Columns"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:153
+msgid "WooCommerce - Archive Filters"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:177
+msgid "WooCommerce - Procuct Archive Filters"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:210
+#: add-on/woocommerce/class-woocommerce.php:259
+msgid "Continue Shopping"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:210
+#: add-on/woocommerce/class-woocommerce.php:259
+msgid "Start Shopping"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:232
+msgid "View shopping cart"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:359
+msgid "Out of stock"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:435 inc/controller.php:25
+msgid "Theme Options"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:455
+msgid "Shop Page Sidebar Layout"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:460 inc/controller.php:137
+#: inc/controller.php:148
+msgid "Sidebar-Content"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:461 inc/controller.php:138
+#: inc/controller.php:149
+msgid "Content-Sidebar"
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:465
+msgid "Show WooCommerce mini cart in Site Header."
+msgstr ""
+
+#: add-on/woocommerce/class-woocommerce.php:507
+msgid "View Shop"
+msgstr ""
+
+#: inc/constructor.php:76
+msgid "Skip to content"
+msgstr ""
+
+#: inc/constructor.php:156 inc/constructor.php:161
+msgid "Site Navigation"
+msgstr ""
+
+#: inc/constructor.php:200 inc/constructor.php:221
+msgid "Show secondary sidebar"
+msgstr ""
+
+#: inc/constructor.php:227
+msgid "Header Widget Wrapper"
+msgstr ""
+
+#: inc/constructor.php:252
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: inc/constructor.php:271 lib/default-filters.php:111
+msgid "Social Navigation"
+msgstr ""
+
+#: inc/constructor.php:296
+msgid "Homepage Above Content Widget Area"
+msgstr ""
+
+#: inc/constructor.php:314
+msgid "Homepage Below Content Widget Area"
+msgstr ""
+
+#: inc/constructor.php:416
+msgid "Join the Conversation"
+msgstr ""
+
+#: inc/constructor.php:418
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/constructor.php:422
+msgid "Show comments"
+msgstr ""
+
+#: inc/constructor.php:646
+msgid "Previous"
+msgstr ""
+
+#: inc/constructor.php:647
+msgid "Next"
+msgstr ""
+
+#: inc/constructor.php:648
+msgid "Page"
+msgstr ""
+
+#: inc/constructor.php:665
+msgid "Next Post "
+msgstr ""
+
+#: inc/constructor.php:666
+msgid " Previous Post"
+msgstr ""
+
+#: inc/constructor.php:683
+msgid "Previous Image"
+msgstr ""
+
+#: inc/constructor.php:684
+msgid "Next Image"
+msgstr ""
+
+#: inc/constructor.php:699
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/constructor.php:728
+msgid "Scroll to top of the page"
+msgstr ""
+
+#: inc/constructor.php:748
+msgid "Y"
+msgstr ""
+
+#: inc/controller.php:27
+msgid "Theme options to customize your site."
+msgstr ""
+
+#: inc/controller.php:48
+msgid "General Settings"
+msgstr ""
+
+#: inc/controller.php:53
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/controller.php:74
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/controller.php:81
+msgid "Display Tagline"
+msgstr ""
+
+#: inc/controller.php:89
+msgid "Change Color Scheme"
+msgstr ""
+
+#: inc/controller.php:93
+msgid "Change theme color scheme."
+msgstr ""
+
+#: inc/controller.php:96
+msgid "Use Google Fonts"
+msgstr ""
+
+#: inc/controller.php:102
+msgid "Show Primary Navigation"
+msgstr ""
+
+#: inc/controller.php:108
+msgid "Display Header Search"
+msgstr ""
+
+#: inc/controller.php:114
+msgid "Display related posts after post content"
+msgstr ""
+
+#: inc/controller.php:120
+msgid "Show Thumbnail Placeholder"
+msgstr ""
+
+#: inc/controller.php:126
+msgid "Blog Title"
+msgstr ""
+
+#: inc/controller.php:132
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: inc/controller.php:139 inc/controller.php:150
+msgid "Only Content- No Sidebar"
+msgstr ""
+
+#: inc/controller.php:143
+msgid "Post Sidebar Layout"
+msgstr ""
+
+#: inc/controller.php:154
+msgid "Footer Text"
+msgstr ""
+
+#: inc/controller.php:158
+msgid "Change footer copyright & credit text at the bottom of your site."
+msgstr ""
+
+#: inc/controller.php:158
+msgid "For Site Title, Use "
+msgstr ""
+
+#: inc/controller.php:158
+msgid "For Copyright symbol, Use "
+msgstr ""
+
+#: inc/controller.php:158
+msgid "For Current Year, Use "
+msgstr ""
+
+#: inc/controller.php:186
+msgid "Latest from - The Blog"
+msgstr ""
+
+#: inc/controller.php:187
+msgid "All rights reserved"
+msgstr ""
+
+#: inc/modifier.php:149
+msgid "Bayleaf Small"
+msgstr ""
+
+#: inc/modifier.php:150
+msgid "Bayleaf Medium"
+msgstr ""
+
+#: inc/modifier.php:151
+msgid "Bayleaf Large"
+msgstr ""
+
+#: lib/default-filters.php:43
+msgid "Submenu Toggle"
+msgstr ""
+
+#: lib/multiuse-functions.php:169
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: lib/multiuse-functions.php:174
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: lib/php-backcompat.php:40
+#, php-format
+msgid ""
+"Bayleaf requires at least PHP version 5.4. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: lib/php-backcompat.php:57 lib/php-backcompat.php:78
+#, php-format
+msgid ""
+"bayleaf requires at least PHP version 5.4. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: lib/wp-backcompat.php:44
+#, php-format
+msgid ""
+"Bayleaf requires at least WordPress version 4.7. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: lib/wp-backcompat.php:61 lib/wp-backcompat.php:82
+#, php-format
+msgid ""
+"bayleaf requires at least WordPress version 4.7. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: template-parts/content/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content/content-none.php:28
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/meta/meta-attachment.php:22
+msgctxt "Attachment image link title attribute"
+msgid "Link to full-size image"
+msgstr ""
+
+#: template-parts/meta/meta-attachment.php:23
+msgid "Full resolution"
+msgstr ""
+
+#: template-parts/meta/meta-categories.php:9
+msgctxt "Used between category list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: template-parts/meta/meta-edit-link.php:12
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/meta/meta-tags.php:9
+msgctxt "Used between tags list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: template-parts/page/page-header.php:35
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/post/entry-author.php:19
+msgid "Written by "
+msgstr ""
+
+#: template-parts/post/entry-author.php:29
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: template-parts/post/entry-content.php:12
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: template-parts/post/entry-content.php:19
+msgid "Pages:"
+msgstr ""

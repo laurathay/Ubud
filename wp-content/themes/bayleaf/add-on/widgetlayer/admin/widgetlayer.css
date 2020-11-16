@@ -1,0 +1,112 @@
+.widget-options-section {
+	display: none;
+	margin: 25px 0;
+}
+
+h4.widget-options-title {
+	position: relative;
+	width: auto;
+	padding: 15px;
+	margin: 0;
+	text-align: left;
+	color: #333;
+	background-color: #f5f5dc;
+	border: 1px solid #e6e6e6;
+	cursor: pointer;
+}
+
+h4.widget-options-title:after {
+	font: normal 20px/1 dashicons;
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	display: block;
+	content: '\f140';
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+h4.widget-options-title.toggle-active:after {
+	content: '\f142';
+}
+
+.widget-options-content {
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,0.08);
+	border-top-width: 0;
+	display: none;
+}
+
+[id^=home-widgetlayer-] .widget-options-section,
+[id^=widgetlayer-page-] .widget-options-section,
+[id^=sub-accordion-section-sidebar-widgets-home-widgetlayer-] .widget-options-section,
+[id^=sub-accordion-section-sidebar-widgets-widgetlayer-page] .widget-options-section {
+	display: block;
+}
+
+.widget-setting label {
+	font-weight: 600;
+}
+
+.wp-customizer p.widget-small-text {
+	font-size: 12px;
+}
+
+p.bayleaf_text_align {
+	padding-bottom: 1.5em;
+	margin-bottom: 1.5em;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+p.bayleaf_widget_featured_image {
+	padding-top: 1.5em;
+	margin-top: 1.5em;
+	border-top: 1px solid #e5e5e5;
+}
+
+span.wid-setting-desc {
+	display: block;
+	margin: 4px 0;
+	font-style: italic;
+}
+
+a.bayleaf-widget-img-uploader {
+	display: block;
+	cursor: pointer;
+	width: 100%;
+	transition: all .1s ease-out;
+	border: 1px dashed #a2aab2;
+	background-color: #edeff0;
+	padding: 10px 0;
+	margin: 10px 0;
+	text-align: center;
+}
+
+a.bayleaf-widget-img-uploader img,
+.bayleaf-widget-img-instruct {
+	display: block;
+}
+
+a.bayleaf-widget-img-uploader:hover,
+a.bayleaf-widget-img-uploader:focus {
+	color: #0073aa;
+	background-color: transparent;
+}
+
+a.has-image.bayleaf-widget-img-uploader {
+	padding: 0;
+	border-width: 0;
+}
+
+a.bayleaf-widget-img-remover {
+	cursor: pointer;
+}
+
+img.custom-widget-thumbnail {
+	width: 100%;
+	height: auto;
+}
+
+.bayleaf-hidden {
+	display: none;
+}

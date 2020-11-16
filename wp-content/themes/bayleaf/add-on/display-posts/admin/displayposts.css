@@ -1,0 +1,82 @@
+.page-panel,
+.post-panel,
+.posts-display,
+.posts-styles-grid {
+	margin: 1em 0;
+}
+
+.post-panel > div,
+.tax-filter-content > div {
+	margin: 1em 0;
+}
+
+.terms-checklist,
+.pages-checklist,
+.style_sup-checklist {
+	overflow: auto;
+	margin: 4px 0 10px;
+	padding: 10px;
+	max-height: 80px;
+	border: 1px solid #e6e6e6;
+}
+
+.terms-checklist ul,
+.pages-checklist ul,
+.style_sup-checklist ul {
+	margin-top: 0;
+}
+
+.not-post .post-only {
+	display: none !important;
+}
+
+.bayleaf-hidden {
+	display: none;
+}
+
+a.dp-settings-toggle {
+	position: relative;
+	display: block;
+	padding: 12px;
+	width: auto;
+	border: 1px solid #e6e6e6;
+	background-color: #f7f7f7;
+	color: #333;
+	text-align: left;
+	cursor: pointer;
+	-webkit-transition: all 0.1s ease-out;
+	        transition: all 0.1s ease-out;
+}
+
+a.dp-settings-toggle:after {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	display: block;
+	content: "\f140";
+	font: normal 20px/1 dashicons;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+
+a.dp-settings-toggle.toggle-active:after {
+	content: "\f142";
+}
+
+.dp-settings-content + a.dp-settings-toggle {
+	margin-top: 10px;
+}
+
+.dp-settings-content {
+	display: none;
+	margin: 0 0 10px;
+	padding: 5px 10px;
+	border: 1px solid #e9e9e9;
+	border-top-width: 0;
+}
+
+.dp-sort-panel {
+	padding: 1px 15px;
+	border-radius: 4px;
+	background-color: #f7f7f7;
+}

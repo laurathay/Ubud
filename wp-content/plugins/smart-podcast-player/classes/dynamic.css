@@ -1,0 +1,72 @@
+/* This file includes the CSS that changes based on the user's selection of */
+/*	color, whether in the player defaults or the shortcode. */
+
+.smart-track-player.stp-color-(($color))-(($background_color)).spp-stp-desktop,
+.smart-track-player.stp-color-(($color))-(($background_color)).spp-stp-desktop.smart-track-player-dark,
+.smart-track-player.stp-color-(($color))-(($background_color)).spp-stp-mobile .spp-player-layout,
+.smart-track-player.stp-color-(($color))-(($background_color)).spp-stp-mobile.smart-track-player-dark .spp-player-layout {
+	background-color: #(($background_color)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-controls .spp-play-pause-circle .spp-play .spp-play-bar,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-player-layout .spp-main-region .spp-main-view .spp-controls .spp-play-pause-circle .spp-play .spp-play-bar,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-stpd-controls-container .spp-stpd-playback-controls .spp-play-pause .spp-play .spp-play-bar
+{
+	background-color: #(($play_pause_color)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-top-matter .spp-artist-and-title .spp-news,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-player-layout .spp-main-region .spp-main-view .spp-top-matter .spp-news,
+.spp-news-overlay .spp-news-region .spp-news-layout .spp-news-basic-cta .spp-button-wrapper .spp-news-subscribe
+{
+	background-color: #(($email_button_bg_color)) (($importantStr));
+	color: #(($email_button_text_color)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-playlist-region .spp-track-list .spp-track-row .spp-eq-svg,
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-playlist-region .spp-track-list .spp-track-row .spp-play-svg
+{
+	fill: #(($color)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-progress-played,
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-seek-time,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-progress-bar .spp-progress-played,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-progress-bar .spp-seek-time
+{
+	background-color: #(($color)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-time-elapsed ,
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-time-remaining ,
+.smart-podcast-player.spp-color-(($color)) .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-seek-time,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-progress-bar .spp-time-elapsed,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-progress-bar .spp-time-remaining,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-progress-bar .spp-seek-time
+{
+	color: #((FFF; FFF; 000)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-show-notes a,
+.smart-podcast-player.spp-color-(($color)) .spp-truncated-show-notes a
+{
+	color: #(($color)) (($importantStr));
+}
+
+.smart-track-player.stp-color-(($color))-(($background_color)).spp-sticky
+{
+	z-index: (($z_index)) (($importantStr));
+}
+
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-main-region .spp-main-view.spp-loading .spp-stpd-playback-controls .spp-play-pause .spp-play .spp-loading-icon svg,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-main-region .spp-main-view.spp-loading .spp-controls .spp-play-pause-circle .spp-play-invisisquare .spp-play .spp-loading-icon svg,
+.smart-podcast-player.spp-color-(($color)) .spp-main-region .spp-main-view.spp-loading .spp-controls .spp-play-pause-circle .spp-play-invisisquare .spp-play .spp-loading-icon svg {
+	stroke: #(($color)) (($importantStr));
+}
+
+.smart-podcast-player.spp-color-(($color)) .spp-volume-slider .rangeslider__fill,
+.smart-podcast-player.spp-color-(($color)) .spp-volume-slider .rangeslider__handle::after,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-volume-slider .rangeslider__fill,
+.smart-track-player.stp-color-(($color))-(($background_color)) .spp-volume-slider .rangeslider__handle::after {
+	background-color: #(($color)) (($importantStr));
+}

@@ -1,0 +1,90 @@
+.wpforms-container form label {
+	text-transform:uppercase !important;
+	font-weight:400 !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size:11px !important;
+}
+
+.wpforms-container form  input[type="text"],
+.wpforms-container form  input[type="email"],
+.wpforms-container form  input[type="password"],
+.wpforms-container form  input[type="url"],
+.wpforms-container form  input[type="date"],
+.wpforms-container form  select,
+.wpforms-container form  textarea {
+	font-weight:300 !important;
+	font-size:12px !important;
+	font-style:italic !important;
+	border:1px solid #f1f1f1 !important;
+	color:#545454 !important;
+	background-color:#fafafa !important;
+	-webkit-border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	border-radius:0 !important;
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+	display: block !important;
+	height: 34px !important;
+	padding: 6px 12px !important;
+}
+.wpforms-container form  textarea {
+	height: 120px !important;
+}
+
+.wpforms-container form  input[type="text"]:focus,
+.wpforms-container form  input[type="email"]:focus,
+.wpforms-container form  input[type="password"]:focus,
+.wpforms-container form  input[type="url"]:focus,
+.wpforms-container form  input[type="date"]:focus,
+.wpforms-container form  select:focus,
+.wpforms-container form  textarea:focus {
+	outline: 0 none !important !important;
+	border-color:#f1f1f1 !important;
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+	outline-color: rgb(0, 103, 244) !important;
+	outline-offset: 2px !important;
+	outline-style: auto !important;
+	outline-width: 5px !important;
+}
+
+.wpforms-container form  button[type="submit"],
+.wpforms-container form  button[type="reset"],
+.wpforms-container form  input[type="submit"],
+.wpforms-container form  input[type="reset"] {
+	padding:10px 28px !important;
+	font-size:11px !important;
+	font-weight:300 !important;
+	-webkit-border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	border-radius:0 !important;
+	text-transform:uppercase !important;
+	background-color:#2d2d2d !important;
+	border-color:#2d2d2d !important;
+	color:#fff !important;
+}
+
+.wpforms-container form  button[type="submit"]:hover,
+.wpforms-container form  button[type="submit"]:focus,
+.wpforms-container form  button[type="reset"]:hover,
+.wpforms-container form  button[type="reset"]:focus,
+.wpforms-container form  input[type="submit"]:hover,
+.wpforms-container form  input[type="submit"]:focus,
+.wpforms-container form  input[type="reset"]:hover,
+.wpforms-container form  input[type="reset"]:focus  {
+	background-color:#000 !important;
+	border-color:#000 !important;
+	color:#fff !important;
+}
+
+.wpforms-container input[type=checkbox] + label,
+.wpforms-container input[type=radio] + label {
+	vertical-align: baseline !important;
+	line-height: 2.4 !important;
+	display: inline !important;
+	font-family: inherit !important;
+	text-transform: inherit !important;	
+	font-style: italic !important;
+}

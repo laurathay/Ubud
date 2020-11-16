@@ -11,6 +11,7 @@ use Elementor\User;
 use Elementor\Core\Settings\Manager as SettingsManager;
 use Elementor\Utils;
 use Elementor\Widget_Base;
+use Elementor\Core\Settings\Page\Manager as PageManager;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -91,11 +92,17 @@ abstract class Document extends Controls_Stack {
 	 * @static
 	 */
 	public static function get_editor_panel_config() {
+		$default_route = 'panel/elements/categories';
+
+		if ( ! Plugin::instance()->role_manager->user_can( 'design' ) ) {
+			$default_route = 'panel/page-settings/settings';
+		}
+
 		return [
 			'title' => static::get_title(), // JS Container title.
 			'widgets_settings' => [],
 			'elements_categories' => static::get_editor_panel_categories(),
-			'default_route' => 'panel/elements/categories',
+			'default_route' => $default_route,
 			'has_elements' => static::get_property( 'has_elements' ),
 			'support_kit' => static::get_property( 'support_kit' ),
 			'messages' => [
@@ -520,6 +527,8 @@ abstract class Document extends Controls_Stack {
 	 * @return bool
 	 */
 	public function save( $data ) {
+		$this->add_handle_revisions_changed_filter();
+
 		if ( ! $this->is_editable_by_current_user() ) {
 			return false;
 		}
@@ -583,7 +592,28 @@ abstract class Document extends Controls_Stack {
 
 		$this->set_is_saving( false );
 
+		$this->remove_handle_revisions_changed_filter();
+
 		return true;
+	}
+
+	/**
+	 * @param array $new_settings
+	 *
+	 * @return static
+	 */
+	public function update_settings( array $new_settings ) {
+		$document_settings = $this->get_meta( PageManager::META_KEY );
+
+		if ( ! $document_settings ) {
+			$document_settings = [];
+		}
+
+		$this->save_settings(
+			array_replace_recursive( $document_settings, $new_settings )
+		);
+
+		return $this;
 	}
 
 	/**
@@ -1257,5 +1287,30 @@ abstract class Document extends Controls_Stack {
 
 	protected function get_have_a_look_url() {
 		return $this->get_permalink();
+	}
+
+	public function handle_revisions_changed( $post_has_changed, $last_revision, $post ) {
+		// In case default, didn't determine the changes.
+		if ( ! $post_has_changed ) {
+			$last_revision_id = $last_revision->ID;
+			$last_revision_document = Plugin::instance()->documents->get( $last_revision_id );
+			$post_document = Plugin::instance()->documents->get( $post->ID );
+
+			$last_revision_settings = $last_revision_document->get_settings();
+			$post_settings = $post_document->get_settings();
+
+			// TODO: Its better to add crc32 signature for each revision and then only compare one part of the checksum.
+			$post_has_changed = $last_revision_settings !== $post_settings;
+		}
+
+		return $post_has_changed;
+	}
+
+	private function add_handle_revisions_changed_filter() {
+		add_filter( 'wp_save_post_revision_post_has_changed', [ $this, 'handle_revisions_changed' ], 10, 3 );
+	}
+
+	private function remove_handle_revisions_changed_filter() {
+		remove_filter( 'wp_save_post_revision_post_has_changed', [ $this, 'handle_revisions_changed' ] );
 	}
 }
